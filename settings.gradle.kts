@@ -8,6 +8,7 @@ pluginManagement {
             }
         }
         mavenCentral()
+        mavenLocal()
         gradlePluginPortal()
     }
 }
@@ -16,8 +17,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
     }
 }
+
 
 rootProject.name = "LibraryProject"
 include(":app")
